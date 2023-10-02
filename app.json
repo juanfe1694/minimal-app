@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ESESP_Mobile_ReactNative",
+    "scheme": "esemobilereactnative",
+    "slug": "ESESP_Mobile_ReactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ESESP_Mobile_ReactNative"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.elsol.ESESP_Mobile_ReactNative"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca03cd73-6a36-4ec1-b353-d2b767204e0f"
+      }
+    }
+  }
+}
